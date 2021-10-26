@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  background-color: #00006d; }
+  .navbar__logo {
+    height: 60px; }
+
+a {
+  font-size: 20px; }
+
+body {
+  background-color: white; }
+
+#containerCard {
+  margin: 30px 30px 150px 30px; }
+  #containerCard__uno {
+    text-align: justify; }
+  #containerCard__dos {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  #containerCard__logo {
+    width: 50%; }
+  #containerCard__new {
+    text-transform: lowercase;
+    font-size: 10px; }
+  #containerCard__img {
+    height: 20rem; }
+
+.tituloHome {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  margin: 20px; }
+
+.card-title {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #00006d;
+  font-style: italic; }
+
+.tituloClub {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 40px 0 60px 60px; }
+
+p {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px;
+  font-size: 19px; }
+
+.parrafoClub {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1000px;
+  margin-left: 60px;
+  margin-bottom: 80px; }
+
+table {
+  border: 3px solid;
+  text-align: center;
+  margin: 20px 0 60px 60px; }
+
+th {
+  background-color: #cccccc;
+  border: 1px solid;
+  color: #00006d; }
+
+tr, td {
+  background-color: white;
+  border: 1px solid;
+  color: #00006d;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding: 20px; }
+
+.imagenesEstadio {
+  margin: 10px; }
+  .imagenesEstadio__titulo {
+    margin: 20px; }
+  .imagenesEstadio__img {
+    margin: 20px;
+    display: inline-block;
+    width: 320px;
+    height: 300px; }
+
+.sectionSocios {
+  margin: 20px;
+  display: block; }
+  .sectionSocios__lista {
+    color: #00006d;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    list-style: none; }
+  .sectionSocios__img {
+    margin: 10px;
+    display: inline-block;
+    width: 320px;
+    height: 300px; }
+  .sectionSocios__titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 40px 0 40px 0;
+    max-width: 100%;
+    min-width: 100%;
+    text-align: center;
+    text-transform: uppercase; }
+  .sectionSocios__far {
+    color: #ffff98; }
+
+.paginaContacto__legend {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 500; }
+
+.paginaContacto__form {
+  padding: 10px;
+  margin: 50px; }
+
+.paginaContacto__fondo {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.paginaContacto__img {
+  height: 100%;
+  width: 100%; }
+
+.paginaContacto__btn {
+  margin-top: 30px; }
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 200px;
+  margin-top: 50px; }
+  .carousel__titulo {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 20px; }
+  .carousel__img {
+    height: 700px; }
+
+.footer {
+  background-color: #00006d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px; }
+  .footer__parrafo {
+    margin-left: 40px;
+    color: white; }
+  .footer__redes {
+    margin-right: 40px; }
+  .footer__logos {
+    margin: 10px; }
+
+@media only screen and (max-width: 600px) {
+  table {
+    margin: 20px; }
+  tr, td {
+    font-size: 15px;
+    padding: 10px; }
+  .carousel__titulo {
+    font-size: 25px; }
+  .tituloHome {
+    font-size: 40px; } }
+
+@media only screen and (min-width: 600px) {
+  .sectionSocios__img {
+    width: 500px;
+    height: 350px; }
+  .imagenesEstadio__img {
+    width: 500px;
+    height: 350px; } }
+
+@media only screen and (min-width: 992px) {
+  .sectionSocios__img {
+    width: 600px;
+    height: 400px; }
+  .imagenesEstadio__img {
+    width: 600px;
+    height: 400px; }
+  .sectionSocios__lista {
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; } }
